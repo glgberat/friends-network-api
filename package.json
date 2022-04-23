@@ -1,0 +1,28 @@
+{
+  "name": "friends-network-api",
+  "version": "1.0.0",
+  "description": "friends social network api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glgberat/friends-network-api.git"
+  },
+  "keywords": [
+    "challenge",
+    "18",
+    "NoSql"
+  ],
+  "author": "Mehmet B Huyuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glgberat/friends-network-api/issues"
+  },
+  "homepage": "https://github.com/glgberat/friends-network-api#readme",
+  "dependencies": {
+    "mongoose": "^6.3.1"
+  }
+}
