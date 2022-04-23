@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/glgberat/friends-network-api#readme",
   "dependencies": {
+    "express": "^4.17.3",
     "mongoose": "^6.3.1"
   }
 }
