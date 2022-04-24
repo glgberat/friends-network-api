@@ -15,11 +15,11 @@ const UserSchema = new Schema({
     },
     thoughts:  [{
         type: Schema.Types.ObjectId,
-        ref: 'Thoughts'
+        ref: 'Thought'
     }],
     friends: [{
         type: Schema.Types.ObjectId,
-        ref: 'Users'
+        ref: 'User'
     }]
 },
     {
@@ -37,7 +37,7 @@ UserSchema.virtual('friendCount').get(function() {
 })
 
 // create the Users model using the Users Schema
-const Users = model('Users', UserSchema);
+const User = model('User', UserSchema);
 
 // Export Users module
-module.exports = Users;
+module.exports = User;
